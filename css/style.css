@@ -12,13 +12,13 @@
     height: 327px;
     border: 5px solid #D1D0CE;
     bottom: 0;
-    border-left: 50px solid #D1D0CE;
-    border-right: 50px solid #D1D0CE;
+    border-left: 5px solid #D1D0CE;
+    border-right: 5px solid #D1D0CE;
     left: 0;
     border-radius: 5px;
     position: relative;
 }   
-.gallery{
+.gallery {
     overflow: hidden;
 }
 ul {
@@ -30,34 +30,27 @@ li {
     list-style-type: none;
     float: left;
 }
-
 i.fa {
     font-size: 48px;
     font-weight: bold;
-    color: #FFF;
+    color: #D1D0CE;
 }
-a {
-    text-decoration: none;
-    float: left;
-    cursor: pointer;
-    margin-top: 150px;
+i.fa:hover {
+    color: powderblue;
 }
-#prev, #next{
+#prev, #next {
 	float:left;
     margin-top: 30px;
 	cursor:pointer;
 	position:absolute;
 }
-
-#prev{
+#prev {
     position: absolute;
     top: 100px;
     left: -35px;
 }
-
-#next{
+#next {
 	top: 100px;
     right: -35px;
     position: absolute;
 }
-
